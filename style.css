@@ -1,0 +1,14 @@
+body{
+    background: antiquewhite;
+}
+
+.categories{
+    background: #fcefdd;
+}
+button{
+    display: block;
+    margin: auto;
+}
+h2{
+    text-align: center;
+}

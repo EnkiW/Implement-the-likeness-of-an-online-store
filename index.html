@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Implement the likeness of an online store</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<div class="categories">
+    <ul>
+        <li onclick="showProducts('category1')">Побутова техніка</li>
+        <li onclick="showProducts('category2')">Спорт і захоплення</li>
+        <li onclick="showProducts('category3')">Одяг, взуття та прикраси</li>
+    </ul>
+</div>
+<div class="products">
+    <ul id="productList">
+    </ul>
+</div>
+<div class="product-info">
+    <h2 id="productName"></h2>
+    <p id="productDescription"></p>
+    <button onclick="buyProduct()">Купити</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
